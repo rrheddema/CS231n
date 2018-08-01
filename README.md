@@ -1,13 +1,13 @@
 # CS231n
 Files related to CS231n assignments
 
-#Setup
+## Setup
 
 There are different ways to work on the assignment. http://cs231n.github.io/assignments2017/assignment1/
 We attempt to work locally, and we will define a setup with Docker so that we can proceed with the 16.04 with Python 3 approach on an e.g. 14.04 machine.
 The assignment requires jupyter.
 
-## Working locally with Docker
+### Working locally with Docker
 
 **Build it**
 ```bash
