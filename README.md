@@ -50,6 +50,7 @@ root@dbd09e42e739:/#
 ```
 
 **Jupyter**
+
 Activate the virtual environment (after setting it up accordingly the assignment)
 ```
 cd /tmp/assignment1
