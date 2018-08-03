@@ -50,13 +50,17 @@ root@dbd09e42e739:/#
 
 **Jupyter**
 
-Activate the virtual environment (after setting it up accordingly the assignment)
+Activate the virtual environment (after setting it up accordingly to the assignment)
+Small remark (2018083): in requirements.txt site==0.0.1 is mentioned, it seems not to work anymore, so remove it before running pip install.
 ```
 cd /tmp/assignment1
 source .env/bin/activate
 ```
 And start jupyter
-
+```bash
+jupyter notebook --ip=0.0.0.0 --port=8888 
+```
+unless it complains about root users running jupyter, then use:
 ```bash
 jupyter notebook --ip=0.0.0.0 --port=8888  --allow-root
 ```
