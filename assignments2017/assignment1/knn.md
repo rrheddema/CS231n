@@ -6,7 +6,7 @@ Bright means high distances, so for the rows is means images in the test data th
 
 **predict labels**
 ```
-# 1) sort the date related to the ith testing point:
+# 1) sort the data related to the ith testing point:
 #    limit it to k elements
 indices=np.argsort(dists[i])[:k]
 # 2) find labels, labels are numbers!
