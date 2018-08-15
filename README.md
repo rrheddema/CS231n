@@ -65,6 +65,8 @@ unless it complains about root users running jupyter, then use:
 jupyter notebook --ip=0.0.0.0 --port=8888  --allow-root
 ```
 
+And then you can browse to localhost::8888 on your machine to access the notebook (which is running in the container!)
+
 **Stop**
 ```bash
 > docker stop dbd09e42e739
