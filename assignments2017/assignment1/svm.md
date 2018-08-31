@@ -10,19 +10,25 @@ References to resolve this exercise:
 * https://mlxai.github.io/2017/01/06/vectorized-implementation-of-svm-loss-and-gradient-update.html
 
 
-In the notes of cs231 the next loss function is mentioned:
+In the notes of cs231 the next loss function is mentioned (you can copy-paste in free-online-latex-equation-editor):
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=L_%7Bi%7D%20%3D%20%20%5Csum_%7Bj%20%5Cneq%20y_%7Bi%7D%7D%5E%7B%7D%0A&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+```
+L_{i} =  \sum_{j \neq y_{i}}^{}    \begin{bmatrix} max(0,w_{j}{^T x_{i} - w_{y_{i}}^T x_{i} +  \Delta  \end{bmatrix}
+```
 
 Notice the difference in sign before w_{j} and w_{y_{i}}.
 
 Closely look at formula and realize that you want:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%5Cnabla_%7BW_%7By_%7Bi%7D%7D%7DL_%7Bi%7D%20%3D%20-x_%7Bi%7D%20%28...%29%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+```
+\nabla_{W_{j}L_{i}=x_{i}(...)
+```
 
 and
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%5Cnabla_%7BW_%7Bj%7D%7DL_%7Bi%7D%20%3D%20x_%7Bi%7D%20%28...%29%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+```
+\nabla_{W_{y_{i}}L_{i}=-x_{i}(...)
+```
 
 When the gradient is with respect of j the summation over j does not make sense.
 
