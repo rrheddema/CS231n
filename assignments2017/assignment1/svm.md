@@ -12,7 +12,7 @@ References to resolve this exercise:
 
 In the notes of cs231 the next loss function is mentioned:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20L_%7Bi%7D%20%3D%20%20%5Csum_%7Bj%20%5Cneq%20y_%7Bi%7D%7D%5E%7B%7D%20%20%20%20%5Cbegin%7Bbmatrix%7D%20max%280%2Cw_%7Bj%7D%7B%5ET%20x_%7Bi%7D%20-%20w_%7By_%7Bi%7D%7D%5ET%20x_%7Bi%7D%20%2B%20%20%5CDelta%20%20%5Cend%7Bbmatrix%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+![equation](http://www.sciweavers.org/tex2img.php?eq=L_%7Bi%7D%20%3D%20%20%5Csum_%7Bj%20%5Cneq%20y_%7Bi%7D%7D%5E%7B%7D%20%20%20%20%5Cbegin%7Bbmatrix%7D%20max%280%2Cw_%7Bj%7D%7B%5ET%20x_%7Bi%7D%20-%20w_%7By_%7Bi%7D%7D%5ET%20x_%7Bi%7D%20%2B%20%20%5CDelta%20%20%5Cend%7Bbmatrix%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 Notice the difference in sign before w_{j} and w_{y_{i}}.
 
