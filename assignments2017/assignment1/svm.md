@@ -54,7 +54,7 @@ lr 2.500000e-08 reg 1.250000e+04 train accuracy: 0.374918 val accuracy: 0.386000
 best validation accuracy achieved during cross-validation: 0.386000
 ```
 
-** Inline Question 2 **
+**Inline Question 2**
 The visualized SVM weights look like mean images for the different classes,
 which is the result of the training that will strengthen the weights for images
 that have the correct class and weaken the weight wrt of incorrect classes.
