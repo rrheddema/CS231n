@@ -11,27 +11,20 @@ References to resolve this exercise:
 
 
 In the notes of cs231 the next loss function is mentioned (you can copy-paste in free-online-latex-equation-editor):
-
 ```
 L_{i} =  \sum_{j \neq y_{i}}^{}    \begin{bmatrix} max(0,w_{j}{^T x_{i} - w_{y_{i}}^T x_{i} +  \Delta  \end{bmatrix}
 ```
-
 Notice the difference in sign before w_{j} and w_{y_{i}}.
-
 Closely look at formula and realize that you want:
-
 ```
 \nabla_{W_{j}L_{i}=x_{i}(...)
 ```
-
 and
-
 ```
 \nabla_{W_{y_{i}}L_{i}=-x_{i}(...)
 ```
 
-When the gradient is with respect of j the summation over j does not make sense.
-
+When the gradient is with respect of j, the summation over j does not make sense.
 Then when in the notes of cs231 the derivates are made, the indicator function is being used too.
 
 **Inline Question 1**
@@ -40,7 +33,7 @@ Differences are expected due to difference of the nature of the methods. Due to 
 
 ### Stochastic Gradient Descent
 
-**tuning the hyperparameters**
+**Tuning the hyperparameters**
 
 * Adapt arrays for learning_rates and regularization_strengths manually
 * Loop throught these arrays
