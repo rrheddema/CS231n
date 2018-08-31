@@ -52,7 +52,7 @@ Differences are expected due to difference of the nature of the methods. Due to 
 learning_rates = [5e-9,1e-8, 2.5e-8, 5e-8]
 regularization_strengths = [1.25e4, 2.5e4, 3.75e4 ,5e4, 6.25e4,7.5e4]
 ```
-Results:
+**Results**
 ```
 ...
 lr 2.500000e-08 reg 1.250000e+04 train accuracy: 0.374918 val accuracy: 0.386000
