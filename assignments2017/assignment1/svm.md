@@ -28,7 +28,8 @@ When the gradient is with respect of j the summation over j does not make sense.
 
 Then when in the notes of cs231 the derivates are made, the indicator function is being used too.
 
-** Inline Question 1 **
+**Inline Question 1**
+
 Differences are expected due to difference of the nature of the methods. Due to rounding errors a numeric approach will differ from an analytic approach.
 
 ### Stochastic Gradient Descent
