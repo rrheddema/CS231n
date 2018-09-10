@@ -1,5 +1,9 @@
 # Implementing a Neural Network
 
+hs: hidden layer size
+lr: learning rate
+r: regularization
+
 **Best performing:**
 ```
 for hs: 6.000000e+01, lr: 1.000000e-03 and r: 2.000000e-01, valid accuracy is: 0.479000
