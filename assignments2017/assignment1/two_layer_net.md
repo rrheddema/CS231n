@@ -1,8 +1,8 @@
 # Implementing a Neural Network
 
-hs: hidden layer size
-lr: learning rate
-r: regularization
+- hs: hidden layer size
+- lr: learning rate
+- r: regularization
 
 **Best performing:**
 ```
